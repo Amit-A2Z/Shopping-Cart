@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/test/Opa5","Startup","./WelcomeJourney","./NavigationJourney","./DeleteProductJourney","./BuyProductJourney","./FilterJourney","./ComparisonJourney"],function(e,t){"use strict";e.extendConfig({arrangements:new t,viewNamespace:"sap.ui.demo.cart.view.",autoWait:true})});

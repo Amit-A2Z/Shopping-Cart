@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/model/Model","sap/base/strings/formatMessage"],function(e,t){"use strict";return e.extend("test.unit.helper.FakeI18nModel",{constructor:function(t){e.call(this);this.mTexts=t||{}},getResourceBundle:function(){return{getText:function(e){return t.call(this,this.mTexts[e],[].slice.call(arguments,1))}.bind(this)}}})});
